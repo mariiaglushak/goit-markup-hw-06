@@ -628,6 +628,7 @@ address{
 }
 .modal-label-checkbox{
     position: relative;
+    display: block;
     padding-left: 35px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -663,9 +664,7 @@ address{
 .modal-form-checkbox:checked+.modal-label-checkbox>.checkbox-box>.modal-icon-checkbox{
     fill: var(--accent-color);
 }
-.modal-form-checkbox:focus+.modal-label-checkbox>.checkbox-box>.modal-icon-checkbox-fokus{
-    fill: var(--title-text-color);
-}
+
 .button-center{
     display: flex;
     justify-content: center;
